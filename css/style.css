@@ -244,6 +244,84 @@ a {
 
     /* ---------- FOOTER ---------- */
 
-    
+    footer {
+        background-color: var(--defaultBlack);
+        row-gap: 5vh;
+        border-top: 5px solid var(--defaultColor);
+    }
+
+    footer > article,
+    footer > article > aside,
+    footer > article > article,
+    footer section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4vh;
+    }
+
+    footer > section, 
+    footer > article {
+        padding: 5%;
+    }
+
+    footer > section {
+        border-top: 1px solid var(--defaultColor);
+    }
+
+    footer section > aside {
+        display: flex;
+        flex-direction: row;
+        column-gap: 2vh;
+    }
+
+    aside > form {
+        padding: 2%;
+        display: flex;
+    }
+
+    input {
+        padding: 2%;
+        border: none;
+        background-color: var(--lightBlack2);
+    }
+
+    [type="email"] {
+        background-color: var(--lightBlack);
+    }
+
+    input,
+    input::placeholder {
+        color: var(--defaultGray);
+    }
+
+    footer > section > aside {
+        background-color: var(--darkerGray);
+    }
+
+    footer a {
+        font-size: 18px;
+        color: var(--defaultGray);
+        border-radius: 50%;
+        border: 2px solid  var(--defaultGray);
+        width: 4vh;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer h3 {
+        text-transform: uppercase;
+        color: white;
+    }
+
+    footer p {
+        color: var(--darkerGray);
+    }
+
+    footer span {
+        color: whitesmoke;
+    }
+
 
 }
