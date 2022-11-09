@@ -99,6 +99,7 @@ a {
 
     details li {
         display: flex;
+        padding-right: 3%;
     }
 
     details a {
