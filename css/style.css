@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+:root {
+    --defaultColor: #55a2a6;
+    --defaultBlack: #151515;
+    --lightBlack: #333;
+    --darkrBlack: #111;
+    --lightBlack2: #444;
+    --defaultGray: #CCC;
+    --darkerGray: #B2B2B2
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body,
+nav,
+main,
+footer,
+main > section,
+.features a,
+.about > blockquote,
+.about > section > article {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--darkrBlack);
+}
+
+h1,
+h3 {
+    text-transform: capitalize;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: var(--defaultBlack)
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 250px) {
+
+    header {
+        height: 40vh;
+        background-image: url("/img/bg-header.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header > article {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(50, 50, 50, .4);
+    }
+
+
+
+    /* ---------- FEATURES ---------- */
+    .features {
+        row-gap: 6vh;
+    }
+    
+    .features > blockquote {
+        line-height: 1.5;
+        color: white;
+        background-color: var(--defaultColor);
+        padding: 4% 20%;
+        text-align: center;
+    }
+
+    .features q,
+    .features cite {
+        width: 80%;
+    }
+
+    .features > article {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10vh;
+        padding: 5vh 0;
+    }
+
+    .features a {
+        align-items: center;
+        row-gap: 2vh;
+    }
+
+    .features i {
+        font-size: 48px;
+        color: var(--darkrBlack);
+    }
+
+    .features h3 {
+        width: 40%;
+        text-align: center;
+    }
+
+    .features p {
+        color: var(--darkerGray);
+        font-weight: 500;
+    }
+}
