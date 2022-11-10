@@ -481,4 +481,19 @@ a {
     header {
         height: 60vh;
     }
+
+    /* ---------- NAV ---------- */
+
+    nav {
+        justify-content: space-evenly;
+    }
+
+    nav h1 {
+        padding-bottom: 0;
+    }
+
+    nav > ul {
+        width: 40%;
+        align-items: center;
+    }
 }
