@@ -358,5 +358,91 @@ a {
         height: 45vh;
     }
 
+    /* ---------- FEATURES ---------- */
+    .features {
+        padding-top: 3vh;
+        align-items: center;
+    }
 
+    .features > blockquote {
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+    }
+
+    .features > article {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 94%;
+    }
+
+    .features a {
+        width: 24%;
+    }
+
+    .features h3 {
+        width: 80%;
+    }
+
+    .features p {
+        text-align: center;
+    }
+
+    /* ---------- ABOUT ---------- */
+
+    .about {
+        row-gap: 3vh;
+        padding: 3%;
+    }
+
+    .about aside {
+        width: 35%;
+    }
+
+    .about > section {
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 2vh;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .about section article {
+        row-gap: 2vh;
+    }
+
+    .about a {
+      width: 45%;  
+    }
+
+    .about q,
+    .about cite {
+        padding: 0;
+    }
+
+    .about q {
+        font-size: 14px;
+    }
+    
+    /* ---------- FOOTER ---------- */
+
+    form {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    input {
+        padding: 2%;
+    }
+
+    footer > article {
+        padding: 3%;
+    }
+
+    footer > section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
