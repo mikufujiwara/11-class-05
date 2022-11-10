@@ -482,7 +482,7 @@ a {
         height: 60vh;
     }
 
-    /* ---------- NAV ---------- */
+    /* ---------- NAV DESKTOP ---------- */
 
     nav {
         justify-content: space-evenly;
@@ -497,7 +497,7 @@ a {
         align-items: center;
     }
 
-    /* ---------- FEATURES ---------- */
+    /* ---------- FEATURES DESKTOP ---------- */
 
     .features {
         padding-top: 2vh;
@@ -539,5 +539,28 @@ a {
     .features a:hover p {
         color: var(--defaultGray);
     }
+
+     /* ---------- ABOUT DESKTOP ---------- */
+
+     .about {
+        padding-top:2vh;
+        align-items: center;
+     }
+
+     .about > article,
+     .about > blockquote,
+     .about > section {
+        width: 80%;
+     }
+
+     .about > blockquote {
+        box-sizing: border-box;
+     }
+
+     .about q,
+     .about cite {
+        padding-left: 3vh;
+     }
+
 
 }
