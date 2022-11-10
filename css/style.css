@@ -55,6 +55,8 @@ a {
     text-decoration: none;
 }
 
+/* ---------- MOBILE VERSION ---------- */
+
 @media (min-width: 250px) {
 
     /* ---------- NAV ---------- */
@@ -319,7 +321,8 @@ a {
 
 }
 
-/* ---------- TABLET ---------- */
+/* ---------- TABLET VERSION ---------- */
+
 @media (min-width:600px) {
 
     /* ---------- NAV ---------- */
@@ -468,5 +471,14 @@ a {
 
     footer section > aside {
         column-gap: 1vh;
+    }
+}
+
+/* ---------- DESKTOP VERSION ---------- */
+
+@media (min-width:1000px) {
+
+    header {
+        height: 60vh;
     }
 }
