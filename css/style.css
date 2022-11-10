@@ -327,7 +327,11 @@ a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 3vh;
+        padding: 2vh;
+    }
+
+    nav h1 {
+        padding-bottom: 1.5vh;
     }
 
     nav > aside {
