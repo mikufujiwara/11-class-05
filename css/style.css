@@ -437,13 +437,32 @@ a {
     input {
         padding: 2%;
     }
+    
+    footer {
+        row-gap: 2vh;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
 
     footer > article {
         padding: 3%;
     }
 
+    footer > article > article,
+    footer section,
+    footer article > aside {
+        row-gap: 2vh;
+    }
+
     footer > section {
         flex-direction: row;
         justify-content: space-between;
+        padding: 3%;
+    }
+
+    footer section > aside {
+        column-gap: 1vh;
     }
 }
