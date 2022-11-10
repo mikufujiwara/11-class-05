@@ -58,13 +58,7 @@ a {
 @media (min-width: 250px) {
 
     /* ---------- NAV ---------- */
-    h1 {
-        padding-left: 5vh;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-    }
-
-
+    
     nav > ul {
         display: none;
     }
@@ -275,7 +269,6 @@ a {
     }
 
     aside > form {
-        padding: 2%;
         display: flex;
     }
 
@@ -321,6 +314,48 @@ a {
 
     footer span {
         color: whitesmoke;
+    }
+
+
+}
+
+/* ---------- TABLET ---------- */
+@media (min-width:600px) {
+
+    /* ---------- NAV ---------- */
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vh;
+    }
+
+    nav > aside {
+        display: none;
+    }
+
+    nav > ul {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    nav li {
+        list-style: none;
+    }
+
+    nav a {
+        color: var(--lightBlack2);
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: var(--defaultColor);
+    }
+
+    /* ---------- HEADER ---------- */
+    header {
+        height: 45vh;
     }
 
 
