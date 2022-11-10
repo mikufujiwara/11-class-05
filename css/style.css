@@ -360,7 +360,7 @@ a {
 
     /* ---------- FEATURES ---------- */
     .features {
-        padding-top: 3vh;
+        padding-top: 1vh;
         align-items: center;
     }
 
@@ -374,6 +374,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
         width: 94%;
+        padding: 0;
     }
 
     .features a {
